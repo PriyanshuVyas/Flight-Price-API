@@ -5,10 +5,20 @@
 ### (vyas.priyanshu23@gmail.com)
 
 It will return Flight Details when provided with:
- -Source City Name
- -Destination City Name
- -Date (format: YYYY-MM-DD)
+ * Source City Name
+ * Destination City Name
+ * Date (format: YYYY-MM-DD)
 
+## API Endpoints:
+* POST ***/flight/prices/*** -
+
+   _Request Format:_
+   
+      {
+         "source":"CITY_NAME_HERE",
+         "destination":"CITY_NAME_HERE",
+         "departureDate":"DATE_HERE"
+      }
 
 ## Postman Collection
 
@@ -22,13 +32,14 @@ Here is the postman collection: https://www.postman.com/priyanshu01/workspace/fl
 To get started with this project, follow these steps:
 
 Clone the repository to your local machine:
-
+```
   git clone https://github.com/PriyanshuVyas/Flight-Price-API.git
+ ```
 
 ## Install the dependencies:
-
+```
 npm install express axios dotenv
-
+```
 
 ## Start the server:
 
