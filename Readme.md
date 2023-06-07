@@ -20,6 +20,8 @@ It will return Flight Details when provided with:
          "departureDate":"DATE_HERE"
       }
 
+## API Hosting
+API is hosted on https://priyanshu-vyas-flight-api.onrender.com/
 ## Postman Collection
 
 Here is the postman collection: https://www.postman.com/priyanshu01/workspace/flightapi/collection/20534179-8b73d366-714a-490d-ac39-1b692f3b4bf1?action=share&creator=20534179
